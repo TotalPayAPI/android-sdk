@@ -1,0 +1,14 @@
+<!--
+  ~ Property of TotalPay (https://totalpay.global).
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.TotalPayAndroidSDK" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/indigo</item>
+        <item name="colorSecondary">@color/indigo</item>
+        <item name="colorPrimaryDark">@color/indigo</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/indigo</item>
+    </style>
+</resources>

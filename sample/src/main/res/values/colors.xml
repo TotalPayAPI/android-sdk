@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of TotalPay (https://totalpay.global).
+  -->
+
+<resources>
+    <color name="indigo">#2C0086</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

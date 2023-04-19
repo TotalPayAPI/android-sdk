@@ -1,0 +1,4 @@
+include ':totalpay'
+include ':sample'
+
+rootProject.name = "TotalPay SDK"

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Property of TotalPay (https://totalpay.global).
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.totalpay.sample"
+    tools:ignore="LockedOrientationActivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.TotalPayApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TotalPayAndroidSDK"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--TotalPay SDK-->
+        <meta-data
+            android:name="com.totalpay.sdk.CLIENT_KEY"
+            android:value="74a05ee8-d9d0-11ed-932e-1635cf76dc07" />
+        <meta-data
+            android:name="com.totalpay.sdk.CLIENT_PASS"
+            android:value="475a0168aeaf7ed96e6d5fda873a58eb" />
+        <meta-data
+            android:name="com.totalpay.sdk.PAYMENT_URL"
+            android:value="https://api.totalpay.global/post" />
+
+        <activity
+            android:name=".ui.TotalPayMainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.TotalPaySaleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TotalPayRecurringSaleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TotalPayCaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TotalPayCreditVoidActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TotalPayGetTransStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TotalPayGetTransDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TotalPayRedirect3dsActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
