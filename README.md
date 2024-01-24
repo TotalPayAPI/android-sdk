@@ -6,7 +6,7 @@ TotalPay is a white-label payment software provider. Thanks to our 15+ years of 
 
 <p align="center">
   <a href="https://totalpay.global">
-      <img src="/media/logo_516.png" alt="TotalPay" width="400px"/>
+      <img src="/media/header.png" alt="TotalPay" width="400px"/>
   </a>
 </p>
 
