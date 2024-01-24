@@ -70,11 +70,11 @@ MIT License. See the [LICENSE](https://github.com/TotalPayAPI/totalpay-android-s
 
 ## Contacts
 
-![](/media/logo_516.png)
+![](/media/header.png)
 
 Website: https://totalpay.global  
 Phone: [+971 4 4578506](tel:+97144578506)  
 Email: [info@totalpay.global](mailto:info@totalpay.global)  
 Address: i-Rise Tower, Barsha Heights, Dubai, UAE.
 
-© 2022 - 2023 TotalPay. All rights reserved.
+© 2022 - 2024 TotalPay. All rights reserved.
